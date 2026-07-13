@@ -1,0 +1,24 @@
+# Segredos — NUNCA commitar
+.env
+.env.*
+!.env.example
+
+# Bancada de trabalho — tudo aqui é efêmero (dados raspados, logs, caches).
+# Fica de fora do git de propósito: intermediário não é entregável.
+.tmp/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# SO / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
